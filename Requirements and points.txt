@@ -1,0 +1,56 @@
+I'm looking for what I think is a single HTML page written in Javascript / jQuery / etc.  This is for a class demonstration, then a slightly larger demonstration that's actually hosted on a website.
+At the highest level of description, there is a logo at the top of the page, then the next portion of the page should have about 5 questions with drop-down options, 
+then a question with textual entry field (12 letters maximum.)
+Based on the inputs, there is then an image and a number which updates dynamically based on the inputs given.  The image is actually 2 files - one is based on one of the dropdowns,
+and the second image is based on a second one of the dropdowns (and which is partially transparent - the end result is the viewer sees an object that looks like the background image. 
+The number is essentially a point level which is driven by the dropdown options selected.
+I have a list of options for each of the 5 questions, along with the point levels for each of the options for each question.
+There's a really rough "screenshot" of what I'm talking about which I can send you.
+
+If I can get the Javascript page written, with references to local files embedded and calculated - I think I can do the rest in terms of moving it to a website if we get that far.
+
+For wand style, 5 options:
+Lance, 10 points
+Wavy, 14
+Traditional, 10
+Baton, 8
+Contemporary, 12
+
+For wood types, 5 options:
+Pine, 5 points
+Oak, 7
+Maple, 9
+Ebony, 14
+Cherry, 7
+
+for wand length:
+9" = 9 points
+10" = 10 points
+11" = 10
+12" = 10
+13" = 12
+14" = 12
+15" = 14
+16" = 14
+17" = 16
+18" = 16
+
+for handle length:
+all options are 2 - 3", 3.5", 4", 4.5", 5", 5.5", 6"
+
+for tip type:
+Flat =  2
+Pointed = 4
+Rounded = 3
+
+Any customization on handle = 10 points; if it's empty, 0 points.
+
+for the images:
+what will happen is I have an image of "pine.jpg" that is the background
+and I have an image of "lance.png" which is transparent for the shape - and some kind of "cream" color for the rest of it.
+so:
+overlay lance.png on pine.jpg with the same color as the rest of the page for the page - just let me know what RGB color I need to use (or maybe I just use white and offset it.)
+and if they pick "wavy" as a style, then overlay "wavy.png" on top of "pine.jpg" for the image...
+and if they pick "oak" as a wood type, then overlay "wavy.png" on top of "oak.jpg" for the image...
+
+got it?  I suspect I need to give you dimensions on those two images.  all the wand style images are the same size and all of the wood images are the same size.

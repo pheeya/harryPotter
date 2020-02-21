@@ -1,0 +1,57 @@
+body{
+    margin:0;
+}
+*{
+    font-family: sans-serif
+
+}
+.logo{
+    width:100%;
+    height:300px;
+    background-image: url('https://www.pngkey.com/png/detail/177-1777019_fl-studio-music-fl-studio-logo-png.png');
+background-position: center;
+background-repeat: no-repeat;
+background-color:rgb(247, 247, 247);
+}
+.questions{
+margin:50px auto;
+max-width:400px;
+}
+.question{
+    display:flex;
+    max-width:400px;
+    border:1px solid rgba(192, 192, 192, 0.295);
+    padding:10px;
+    border-radius: 3px;
+    margin:20px 0;
+}
+
+label,select{
+    width:50%;
+    vertical-align: middle;
+}
+label{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+select{
+    border-radius: 3px;
+    padding:10px;
+    border:1px solid rgb(224, 224, 224);
+    cursor: pointer;
+    transition: all .2s;
+}
+select:focus{
+    outline:none;
+    box-shadow: 0 0 10px rgba(192, 192, 192, 0.281);
+}
+
+p{
+    margin:0;
+}
+
+#difficulty{
+    color:rgb(255, 102, 0);
+    font-weight: bold;
+}

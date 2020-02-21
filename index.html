@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div class="logo"></div>
+
+        <div class="questions">
+            <div class="question">
+                <label for="style">Wand Style</label>
+                <select name="style" id="style">
+                    <option value="0">Choose Wand Style</option>
+                    <option value="10">Lance</option>
+                    <option value="14">Wavy</option>
+                    <option value="10">Traditional</option>
+                    <option value="8">Baton</option>
+                    <option value="12">Contemporary</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label for="woodType">Wood Type</label>
+                <select name="woodType" id="woodType">
+                    <option value="0">Choose Wood Type</option>
+                    <option value="5">Pine</option>
+                    <option value="7">Oak</option>
+                    <option value="9">Maple</option>
+                    <option value="14">Ebony</option>
+                    <option value="7">Cherry</option>
+                </select>
+            </div>
+
+
+            <div class="question">
+                <label for="wandLength">Wand Length</label>
+                <select name="wandLength" id="wandLength">
+                    <option value="0">Choose Wand Length</option>
+                    <option value="9">9"</option>
+                    <option value="10">10"</option>
+                    <option value="10">11"</option>
+                    <option value="10">12"</option>
+                    <option value="12">13"</option>
+                    <option value="12">14"</option>
+                    <option value="14">15"</option>
+                    <option value="14">16"</option>
+                    <option value="16">17"</option>
+                    <option value="16">18"</option>
+                </select>
+            </div>
+
+            
+            <div class="question">
+                <label for="handleLength">Handle Length</label>
+                <select name="handleLength" id="handleLength">
+                    <option value="0">Choose Handle Length</option>
+                    <option value="10">3"</option>
+             <option value="10">3.5"</option>
+             <option value="10">4"</option>
+             <option value="10">4.5"</option>
+             <option value="10">5"</option>
+             <option value="10">5.5"</option>
+             <option value="10">6"</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label for="tipType">Tip Type</label>
+                <select name="tipType" id="tipType">
+                    <option value="0">Choose Tip Type</option>
+                    <option value="2">Flat</option>
+            <option value="4">Pointed</option>
+            <option value="3">Rounded</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label for=""><p>Estimated Difficulty: <span id="difficulty"></span></p></label>
+            </div>
+        </div>
+    </main>
+    <script src="logic.js"></script>
+</body>
+
+</html>
