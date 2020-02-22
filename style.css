@@ -55,3 +55,26 @@ p{
     color:rgb(255, 102, 0);
     font-weight: bold;
 }
+
+.question input{
+    width:100%;
+    border:1px solid rgba(192, 192, 192, 0.459);
+    padding:10px;
+    border-radius: 3px;
+    transition: all .2s;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0 0 10px rgba(65, 65, 65, 0.068);
+}
+
+.wandRender{
+    margin:50px auto;
+   
+}
+
+.wandRender img{
+    width:100%;
+    display:block;
+}

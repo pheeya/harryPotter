@@ -17,11 +17,11 @@
                 <label for="style">Wand Style</label>
                 <select name="style" id="style">
                     <option value="0">Choose Wand Style</option>
-                    <option value="10">Lance</option>
-                    <option value="14">Wavy</option>
-                    <option value="10">Traditional</option>
-                    <option value="8">Baton</option>
-                    <option value="12">Contemporary</option>
+                    <option value="10" data-img="Lance.png">Lance</option>
+                    <option value="14" data-img="Wavy.png">Wavy</option>
+                    <option value="10" data-img="Traditional.png">Traditional</option>
+                    <option value="8" data-img="Baton.png">Baton</option>
+                    <option value="12" data-img="Contemporary.png">Contemporary</option>
                 </select>
             </div>
 
@@ -29,11 +29,11 @@
                 <label for="woodType">Wood Type</label>
                 <select name="woodType" id="woodType">
                     <option value="0">Choose Wood Type</option>
-                    <option value="5">Pine</option>
-                    <option value="7">Oak</option>
-                    <option value="9">Maple</option>
-                    <option value="14">Ebony</option>
-                    <option value="7">Cherry</option>
+                    <option value="5" data-img="Pine.jpg">Pine</option>
+                    <option value="7" data-img="Oak.jpg">Oak</option>
+                    <option value="9" data-img="Maple.jpg">Maple</option>
+                    <option value="14" data-img="Ebony.jpg">Ebony</option>
+                    <option value="7" data-img="Cherry.jpg">Cherry</option>
                 </select>
             </div>
 
@@ -55,18 +55,18 @@
                 </select>
             </div>
 
-            
+
             <div class="question">
                 <label for="handleLength">Handle Length</label>
                 <select name="handleLength" id="handleLength">
                     <option value="0">Choose Handle Length</option>
                     <option value="10">3"</option>
-             <option value="10">3.5"</option>
-             <option value="10">4"</option>
-             <option value="10">4.5"</option>
-             <option value="10">5"</option>
-             <option value="10">5.5"</option>
-             <option value="10">6"</option>
+                    <option value="10">3.5"</option>
+                    <option value="10">4"</option>
+                    <option value="10">4.5"</option>
+                    <option value="10">5"</option>
+                    <option value="10">5.5"</option>
+                    <option value="10">6"</option>
                 </select>
             </div>
 
@@ -75,14 +75,22 @@
                 <select name="tipType" id="tipType">
                     <option value="0">Choose Tip Type</option>
                     <option value="2">Flat</option>
-            <option value="4">Pointed</option>
-            <option value="3">Rounded</option>
+                    <option value="4">Pointed</option>
+                    <option value="3">Rounded</option>
                 </select>
             </div>
-
             <div class="question">
-                <label for=""><p>Estimated Difficulty: <span id="difficulty"></span></p></label>
+                <input type="text" placeholder="What is your grandma's name?" id="finalQuestion" maxlength="12">
             </div>
+            <div class="wandRender" id="wandBack">
+                <img src="" alt="" id="wand">
+            </div>
+            <div class="question">
+                <label for="">
+                    <p>Estimated Difficulty: <span id="difficulty"></span></p>
+                </label>
+            </div>
+
         </div>
     </main>
     <script src="logic.js"></script>
